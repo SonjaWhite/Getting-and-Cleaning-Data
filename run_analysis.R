@@ -1,6 +1,7 @@
+library(dplyr)
 train <- read.table("./UCI HAR Dataset/train/x_train.txt")
 labels_train <- read.table("./UCI HAR Dataset/train/y_train.txt")
-subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt"
+subject_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 test <- read.table("./UCI HAR Dataset/test/x_test.txt")
 labels_test <- read.table("./UCI HAR Dataset/test/y_test.txt")
 subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
