@@ -44,85 +44,84 @@ Acc is an abbreviation for acceleration
 
 avgdata is a dataset 180 X 81
 
-                   Variable             Class
-1                   subject            integer
-2                  activity            factor w/6 levels
-3            tBodyAccMean.X            number
-4            tBodyAccMean.Y            number
-5            tBodyAccMean.Z            number
-6             tBodyAccStd.X            number
-7             tBodyAccStd.Y            number
-8             tBodyAccStd.Z            number
-9         tGravityAccMean.X            number
-10        tGravityAccMean.Y            number
-11        tGravityAccMean.Z            number
-12         tGravityAccStd.X            number
-13         tGravityAccStd.Y            number
-14         tGravityAccStd.Z            number
-15       tBodyAccJerkMean.X            number
-16       tBodyAccJerkMean.Y            number
-17       tBodyAccJerkMean.Z            number
-18        tBodyAccJerkStd.X            number
-19        tBodyAccJerkStd.Y            number
-20        tBodyAccJerkStd.Z            number
-21          tBodyGyroMean.X            number
-22          tBodyGyroMean.Y            number
-23          tBodyGyroMean.Z            number
-24           tBodyGyroStd.X            number
-25           tBodyGyroStd.Y            number
-26           tBodyGyroStd.Z            number
-27      tBodyGyroJerkMean.X            number
-28      tBodyGyroJerkMean.Y            number
-29      tBodyGyroJerkMean.Z            number
-30       tBodyGyroJerkStd.X            number
-31       tBodyGyroJerkStd.Y            number
-32       tBodyGyroJerkStd.Z            number
-33          tBodyAccMagMean            number
-34           tBodyAccMagStd            number
-35       tGravityAccMagMean            number
-36        tGravityAccMagStd            number
-37      tBodyAccJerkMagMean            number
-38       tBodyAccJerkMagStd            number
-39         tBodyGyroMagMean            number
-40          tBodyGyroMagStd            number
-41     tBodyGyroJerkMagMean            number
-42      tBodyGyroJerkMagStd            number
-43           fBodyAccMean.X            number
-44           fBodyAccMean.Y            number
-45           fBodyAccMean.Z            number
-46            fBodyAccStd.X            number
-47            fBodyAccStd.Y            number
-48            fBodyAccStd.Z            number
-49       fBodyAccMeanFreq.X            number
-50       fBodyAccMeanFreq.Y            number
-51       fBodyAccMeanFreq.Z            number
-52       fBodyAccJerkMean.X            number
-53       fBodyAccJerkMean.Y            number
-54       fBodyAccJerkMean.Z            number
-55        fBodyAccJerkStd.X            number
-56        fBodyAccJerkStd.Y            number
-57        fBodyAccJerkStd.Z            number
-58   fBodyAccJerkMeanFreq.X            number
-59   fBodyAccJerkMeanFreq.Y            number
-60   fBodyAccJerkMeanFreq.Z            number
-61          fBodyGyroMean.X            number
-62          fBodyGyroMean.Y            number
-63          fBodyGyroMean.Z            number
-64           fBodyGyroStd.X            number
-65           fBodyGyroStd.Y            number
-66           fBodyGyroStd.Z            number
-67      fBodyGyroMeanFreq.X            number
-68      fBodyGyroMeanFreq.Y            number
-69      fBodyGyroMeanFreq.Z            number
-70          fBodyAccMagMean            number
-71           fBodyAccMagStd            number
-72      fBodyAccMagMeanFreq            number
-73      fBodyAccJerkMagMean            number
-74       fBodyAccJerkMagStd            number
-75  fBodyAccJerkMagMeanFreq            number
-76         fBodyGyroMagMean            number
-77          fBodyGyroMagStd            number
-78     fBodyGyroMagMeanFreq            number
-79     fBodyGyroJerkMagMean            number
-80      fBodyGyroJerkMagStd            number
-81 fBodyGyroJerkMagMeanFreq            number 
+* subject | integer"
+"* activity | factor"
+"* tBodyAccMean.X | numeric"
+"* tBodyAccMean.Y | numeric"
+"* tBodyAccMean.Z | numeric"
+"* tBodyAccStd.X | numeric"
+"* tBodyAccStd.Y | numeric"
+"* tBodyAccStd.Z | numeric"
+"* tGravityAccMean.X | numeric"
+"* tGravityAccMean.Y | numeric"
+"* tGravityAccMean.Z | numeric"
+"* tGravityAccStd.X | numeric"
+"* tGravityAccStd.Y | numeric"
+"* tGravityAccStd.Z | numeric"
+"* tBodyAccJerkMean.X | numeric"
+"* tBodyAccJerkMean.Y | numeric"
+"* tBodyAccJerkMean.Z | numeric"
+"* tBodyAccJerkStd.X | numeric"
+"* tBodyAccJerkStd.Y | numeric"
+"* tBodyAccJerkStd.Z | numeric"
+"* tBodyGyroMean.X | numeric"
+"* tBodyGyroMean.Y | numeric"
+"* tBodyGyroMean.Z | numeric"
+"* tBodyGyroStd.X | numeric"
+"* tBodyGyroStd.Y | numeric"
+"* tBodyGyroStd.Z | numeric"
+"* tBodyGyroJerkMean.X | numeric"
+"* tBodyGyroJerkMean.Y | numeric"
+"* tBodyGyroJerkMean.Z | numeric"
+"* tBodyGyroJerkStd.X | numeric"
+"* tBodyGyroJerkStd.Y | numeric"
+"* tBodyGyroJerkStd.Z | numeric"
+"* tBodyAccMagMean. | numeric"
+"* tBodyAccMagStd. | numeric"
+"* tGravityAccMagMean. | numeric"
+"* tGravityAccMagStd. | numeric"
+"* tBodyAccJerkMagMean. | numeric"
+"* tBodyAccJerkMagStd. | numeric"
+"* tBodyGyroMagMean. | numeric"
+"* tBodyGyroMagStd. | numeric"
+"* tBodyGyroJerkMagMean. | numeric"
+"* tBodyGyroJerkMagStd. | numeric"
+"* fBodyAccMean.X | numeric"
+"* fBodyAccMean.Y | numeric"
+"* fBodyAccMean.Z | numeric"
+"* fBodyAccStd.X | numeric"
+"* fBodyAccStd.Y | numeric"
+"* fBodyAccStd.Z | numeric"
+"* fBodyAccMeanFreq.X | numeric"
+"* fBodyAccMeanFreq.Y | numeric"
+"* fBodyAccMeanFreq.Z | numeric"
+"* fBodyAccJerkMean.X | numeric"
+"* fBodyAccJerkMean.Y | numeric"
+"* fBodyAccJerkMean.Z | numeric"
+"* fBodyAccJerkStd.X | numeric"
+"* fBodyAccJerkStd.Y | numeric"
+"* fBodyAccJerkStd.Z | numeric"
+"* fBodyAccJerkMeanFreq.X | numeric"
+"* fBodyAccJerkMeanFreq.Y | numeric"
+"* fBodyAccJerkMeanFreq.Z | numeric"
+"* fBodyGyroMean.X | numeric"
+"* fBodyGyroMean.Y | numeric"
+"* fBodyGyroMean.Z | numeric"
+"* fBodyGyroStd.X | numeric"
+"* fBodyGyroStd.Y | numeric"
+"* fBodyGyroStd.Z | numeric"
+"* fBodyGyroMeanFreq.X | numeric"
+"* fBodyGyroMeanFreq.Y | numeric"
+"* fBodyGyroMeanFreq.Z | numeric"
+"* fBodyAccMagMean. | numeric"
+"* fBodyAccMagStd. | numeric"
+"* fBodyAccMagMeanFreq. | numeric"
+"* fBodyAccJerkMagMean. | numeric"
+"* fBodyAccJerkMagStd. | numeric"
+"* fBodyAccJerkMagMeanFreq. | numeric"
+"* fBodyGyroMagMean. | numeric"
+"* fBodyGyroMagStd. | numeric"
+"* fBodyGyroMagMeanFreq. | numeric"
+"* fBodyGyroJerkMagMean. | numeric"
+"* fBodyGyroJerkMagStd. | numeric"
+"* fBodyGyroJerkMagMeanFreq. | numeric"
