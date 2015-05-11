@@ -5,14 +5,14 @@ Sonja White
 
 #Project Description
 
-	* The purpose of this project was to download data from the [UCI HAR Dataset]
-	  (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
-	* Merge the training and test sets to create one data set
-	* Extract measurements on the mean and standard deviation for each variable
-	* Use descriptive activity names to name the activities in the data set
-	* Appropriately label the data set with descriptive variable names
-	* Create a second, independent tidy data set, with the average of each variable for 
-	  each activity and each subject.
+* The purpose of this project was to download data from the [UCI HAR Dataset]
+  (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
+* Merge the training and test sets to create one data set
+* Extract measurements on the mean and standard deviation for each variable
+* Use descriptive activity names to name the activities in the data set
+* Appropriately label the data set with descriptive variable names
+* Create a second, independent tidy data set, with the average of each variable for 
+  each activity and each subject.
 		
 ##Create and clean a tidy data set from the UCI HAR Dataset
 
@@ -25,7 +25,7 @@ Sonja White
 	7. Make variable names more descriptive and readable
 	
 ##Create second tidy data set that contains mean for each variable for each subject and
-	each activity
+##each activity
 
 	1. Group the data set created above by subject and activity using group_by
 	2. Determine the mean for each measurement for each subject and activity using 
