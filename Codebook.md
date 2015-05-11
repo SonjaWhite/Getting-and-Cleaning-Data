@@ -3,7 +3,7 @@ Sonja White
 04/26/2015
 
 
-#Project Description
+##Project Description
 
 * The purpose of this project was to download data from the [UCI HAR Dataset]
   (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
@@ -24,8 +24,7 @@ Sonja White
 	6. Replace numbers for activities with descriptive names using activity_labels.txt
 	7. Make variable names more descriptive and readable
 	
-##Create second tidy data set that contains mean for each variable for each subject and
-##each activity
+##Create second tidy data set that contains mean for each variable for each subject and each activity
 
 	1. Group the data set created above by subject and activity using group_by
 	2. Determine the mean for each measurement for each subject and activity using 
@@ -45,11 +44,11 @@ Acc is an abbreviation for acceleration
 
 avgdata is a dataset 180 X 81
 
-* subject | integer"
-"* activity | factor"
-"* tBodyAccMean.X | numeric"
-"* tBodyAccMean.Y | numeric"
-"* tBodyAccMean.Z | numeric"
+subject|integer
+activity|factor
+tBodyAccMean.X|numeric
+tBodyAccMean.Y|numeric"
+tBodyAccMean.Z|numeric"
 "* tBodyAccStd.X | numeric"
 "* tBodyAccStd.Y | numeric"
 "* tBodyAccStd.Z | numeric"
