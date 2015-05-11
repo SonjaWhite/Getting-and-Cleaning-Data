@@ -5,16 +5,16 @@ Sonja White
 
 #Project Description
 
-	*The purpose of this project was to download data from the [UCI HAR Dataset]
-	(http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
-	*Merge the training and test sets to create one data set
-	*Extract measurements on the mean and standard deviation for each variable
-	*Use descriptive activity names to name the activities in the data set
-	*Appropriately label the data set with descriptive variable names
-	*Create a second, independent tidy data set, with the average of each variable for 
-	each activity and each subject.
+	* The purpose of this project was to download data from the [UCI HAR Dataset]
+	  (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
+	* Merge the training and test sets to create one data set
+	* Extract measurements on the mean and standard deviation for each variable
+	* Use descriptive activity names to name the activities in the data set
+	* Appropriately label the data set with descriptive variable names
+	* Create a second, independent tidy data set, with the average of each variable for 
+	  each activity and each subject.
 		
-#Guide to create and clean the tidy data set
+##Create and clean a tidy data set from the UCI HAR Dataset
 
 	1. Download data from the UCI HAR Dataset
 	2. Combine raw data in x_train.txt with y_train.txt and subject_train.txt
@@ -24,7 +24,8 @@ Sonja White
 	6. Replace numbers for activities with descriptive names using activity_labels.txt
 	7. Make variable names more descriptive and readable
 	
-#Guide to create second tidy data set 
+##Create second tidy data set that contains mean for each variable for each subject and
+	each activity
 
 	1. Group the data set created above by subject and activity using group_by
 	2. Determine the mean for each measurement for each subject and activity using 
@@ -32,7 +33,7 @@ Sonja White
 	3. Return the dataset (avgdata) created in step 2
 
 
-#Variables for avgdata
+##Variables for avgdata
 
 The raw data used in computing the means for this dataset comes from the accelerometer
 and gyroscope 3-azial raw signals tAcc-XYZ and tGyro-XYZ.  
